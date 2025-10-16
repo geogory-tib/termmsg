@@ -1,0 +1,8 @@
+The termsg protocol is really simple
+The client will send a server request like this
+
+from sender to receiver  // these are usernames the server will use to know where to send the coresponding data to
+
+encrypted message // encryption will be done on the client side to avoid any sort of fishing
+
+DATA_END 
