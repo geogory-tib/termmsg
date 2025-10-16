@@ -1,5 +1,10 @@
 package headers
-
+/*
+Example header for termsg 
+SEND_TO\n\r
+USER\n\r
+Hello\n
+*/
 const (
 	Command_Header  = "COMMAND\n\r"
 	Command_Reply   = "COMM REPLY\n\r"
